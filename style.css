@@ -1,0 +1,74 @@
+@media (max-width: 500px) {
+    body {
+        background-image: url("img/fondo.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        /* background-position: center; */
+    }
+
+    #centro {
+        background-color: rgb(123, 131, 131);
+        opacity: .8;
+    }
+
+    .contenedor {
+        /* padding: 20px; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rotating_text_pane {
+        display: flex;
+        flex-direction: column;
+        height: 115px;
+        overflow: hidden;
+    }
+
+    .change_pane {
+        transform-origin: 0% 0%;
+        animation: change_text 15s 1 forwards;
+        display: flex;
+        flex-direction: column;
+    }
+
+    @keyframes change_text {
+
+        0%,
+        5% {
+            transform: translateY(0);
+        }
+        5%,
+        10% {
+            transform: translateY(-10);
+        }
+        11%,
+        20% {
+            transform: translateY(-20);
+        }
+        21%,
+        30% {
+            transform: translateY(-30);
+        }
+        31%,
+        40% {
+            transform: translateY(-40);
+        }
+        41%,
+        50% {
+            transform: translateY(-50);
+        }
+        51%,
+        60% {
+            transform: translateY(-60);
+        }
+        100%{
+            transform: translateY(-86%);
+        }
+    }
+
+    h1 {
+        font-size: 6rem;
+        color: rgb(255, 42, 42);
+    }
+}
