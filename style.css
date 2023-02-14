@@ -6,7 +6,7 @@
         background-size: 100% 100%;
         /* background-position: center; */
     }
-    .modal{
+    .modal-content{
         background-image: url("https://w0.peakpx.com/wallpaper/43/926/HD-wallpaper-kuromi-cute-mymelody-onegaimymelody-sanrio.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -87,7 +87,7 @@
         font-size: 6rem;
         color: rgb(255, 42, 42);
     }
-    .modal{
+    .modal-content{
         background-image: url("https://w0.peakpx.com/wallpaper/43/926/HD-wallpaper-kuromi-cute-mymelody-onegaimymelody-sanrio.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
