@@ -6,12 +6,6 @@
         background-size: 100% 100%;
         /* background-position: center; */
     }
-    .modal-content{
-        background-image: url("https://w0.peakpx.com/wallpaper/43/926/HD-wallpaper-kuromi-cute-mymelody-onegaimymelody-sanrio.jpg");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: 100% 100%;
-    }
     
 }
 @media (max-width: 500px) {
