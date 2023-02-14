@@ -1,3 +1,16 @@
+@media (min-width: 501px) {
+    body {
+        background-image: url("https://images8.alphacoders.com/119/thumbbig-1197447.webp");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        /* background-position: center; */
+    }
+    #centro {
+        background-color: rgb(123, 131, 131);
+        opacity: .8;
+    }
+}
 @media (max-width: 500px) {
     body {
         background-image: url("https://i.pinimg.com/736x/1b/09/dc/1b09dc1defece7892667063cd891e2d5.jpg");
