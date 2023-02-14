@@ -1,6 +1,6 @@
 @media (max-width: 500px) {
     body {
-        background-image: url("img/fondo.jpg");
+        background-image: url("https://sebastianalvarez.github.io/img/fondo.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100% 100%;
